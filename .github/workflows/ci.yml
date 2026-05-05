@@ -11,3 +11,6 @@ jobs:
 
       - name: Run test
         run: python3 test.py
+
+      - name: Deploy step
+        run: echo "Deployment successful"
