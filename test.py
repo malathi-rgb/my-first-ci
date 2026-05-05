@@ -1,5 +1,10 @@
 def test_add():
-    assert 1 + 1 == 2
+    print("Step 1: Starting test...")
+    result = 1 + 1
+    print("Step 2: Result is:", result)
+
+    assert result == 2
+    print("Step 3: Test Passed")
 
 test_add()
-print("Test Passed")
+print("Final Output: Pipeline executed successfully")
